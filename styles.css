@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #5d6063 ;
+    background-color: #eaedf0;
+    font-family: "Helvatica", "Arial", sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-survey-form {
+    text-align: center;
+    background-color: #f6f7f8;
+    border: 0px solid #5d6063;
+    border-radius: 4px;
+
+    width: 80%;
+    margin: 40px 0;
+    padding: 50px;
+
+}
+
+.header-survey-form h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.survey-form {
+    background-color: #f6f7f8;
+    border: 0px;
+    border-radius: 4px;
+
+    margin: 20px 0;
+    padding: 50px;
+    width: 80%;
+}
+
+.survey-row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: baseline;
+
+    margin-bottom: 20px;
+}
+
+.survey-row label {
+    text-align: right;
+    width: 120px;
+    margin-top: 7px;
+    padding-right: 20px;
+
+}
+
+.survey-row input[type='text'],
+.survey-row input[type='email'],
+.survey-row input[type='number']  {
+    height: 30px;
+    width: 50%;
+}
+
+.survey-form select {
+    height: 30px;
+    width: 50%;
+}
+
+.radio-buttons,
+.checkbox-buttons {
+    text-align: center;
+    margin-top: 2px;
+    padding: 15px;
+}
+fieldset{
+    border: none;
+}
+
+.checkbox-buttons input {
+    margin-right: 5px;
+}
+
+textarea {
+    resize: none;
+    color: #5d6063 ;
+    background-color: #eaedf0;
+    font-family: "Helvatica", "Arial", sans-serif;
+    font-size: 16px;
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+    background-color: #f6f7f8;
+    border: 0px solid #5d6063;
+    border-radius: 4px;
+
+    width: 80%;
+    margin-top: 30px;
+    padding: 10px 15px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #5d6063;
+}
+
+.icon img {
+    width: 25px;
+}
+
+
+
